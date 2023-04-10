@@ -10,11 +10,11 @@
 
 s = int(input('Укажите количество журавликов, сделанное тремя детьми: '))
 
-divisor = 3
+divisor = 6
 if s % divisor != 0:
     print('Некорректное количество')
 else:
-    ab = s // divisor 
+    ab = s // 3 
     c = ab * 2 
     a = ab // 2
     b = ab // 2
