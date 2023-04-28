@@ -4,3 +4,13 @@
 Диапазон от 6 до 12
 Вывод: [1, 9, 13, 14, 19]'''
 
+lst = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
+min_val = 6
+max_val = 12
+
+result = []
+for i in range(len(lst)):
+    if lst[i] >= min_val and lst[i] <= max_val:
+        result.append(i)
+
+print(result)
